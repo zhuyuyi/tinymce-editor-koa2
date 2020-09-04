@@ -15,7 +15,7 @@ function ceshi(router) {
     }
   })
 
-  return router
+  return router;
 }
 
 module.exports = ceshi;
