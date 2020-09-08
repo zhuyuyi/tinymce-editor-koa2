@@ -4,8 +4,15 @@ function setArticle(router) {
 
     router.get('/article', async (ctx, next) => {
         const article = await Article.get();
-        ctx.body = {
-            ...article._doc
+        console.log(article,'11111')
+        if(article._doc){
+            ctx.body = {
+                ...article._doc
+            }
+        } else {
+            ctx.body = {
+                article:[]
+            }
         }
     })
 
