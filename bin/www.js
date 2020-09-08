@@ -5,7 +5,7 @@ var debug = require('debug')('demo:server');
 var http = require('http');
 const databaseInit = require('./databaseInit');
 
-var port = normalizePort(process.env.PORT || '3400');
+var port = normalizePort(process.env.PORT || '3300');
 
 var server = http.createServer(app.callback());
 
