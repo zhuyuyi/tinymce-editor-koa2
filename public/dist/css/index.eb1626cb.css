@@ -1,0 +1,242 @@
+.electron-tools-menuDiv-5db91 {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 120px;
+  height: 100vh;
+  background: #001529;
+}
+
+.electron-tools-layoutHeaderDiv-50d00 {
+  padding-left: 120px;
+  width: 100%;
+}
+.electron-tools-layoutHeaderDiv-50d00 .ant-page-header {
+  padding: 0;
+}
+.electron-tools-layoutHeaderDiv-50d00 .ant-page-header-heading {
+  padding: 20px;
+  background-color: #fff;
+}
+.electron-tools-layoutHeaderDiv-50d00 .ant-page-header-content {
+  padding-top: 0;
+}
+.electron-tools-layoutHeaderDiv-50d00 .electron-tools-contents-ff8dd {
+  padding: 20px;
+}
+
+.electron-tools-ulContainer-3505c {
+  display: flex;
+  position: relative;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.electron-tools-ulContainer-3505c .ant-tabs {
+  width: 50%;
+}
+.electron-tools-ulContainer-3505c .ant-tabs-left > .ant-tabs-content-holder > .ant-tabs-content > .ant-tabs-tabpane,
+.electron-tools-ulContainer-3505c .ant-tabs-left > div > .ant-tabs-content-holder > .ant-tabs-content > .ant-tabs-tabpane {
+  padding-left: 2px;
+}
+
+.electron-tools-btnBox-39509 {
+  padding: 10px 0;
+  text-align: right;
+}
+.electron-tools-marginRight-cb3b2 {
+  margin-right: 20px;
+}
+
+.electron-tools-aceEditorBox-c135d {
+  width: 100%;
+}
+.electron-tools-aceEditorBox-c135d #codeEditor {
+  height: 80vh;
+}
+.electron-tools-marginRight-6fde7 {
+  margin-right: 20px;
+}
+.electron-tools-btnBox-b49e4 {
+  padding: 10px 0;
+  text-align: right;
+}
+
+.electron-tools-marginRight-1d3e8 {
+  margin-right: 20px;
+}
+.electron-tools-btnBox-a5e5b {
+  padding: 10px 0;
+  text-align: right;
+}
+.electron-tools-formContainer-91cd8 {
+  height: 83vh;
+  overflow-y: scroll;
+}
+.electron-tools-formContainer-91cd8 .ant-table-wrapper {
+  display: inline-block;
+}
+.electron-tools-formContainer-91cd8 .ant-tag {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.electron-tools-formContainer-91cd8 .electron-tools-tagInput-2e4cd {
+  width: 78px;
+  height: 22px;
+  margin-right: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  vertical-align: top;
+}
+
+.electron-tools-marginRight-876d8 {
+  margin-right: 20px;
+}
+.electron-tools-btnBox-b958e {
+  padding: 10px 0;
+  text-align: right;
+}
+.electron-tools-formContainer-284da {
+  height: 83vh;
+  overflow-y: scroll;
+}
+.electron-tools-formContainer-284da .ant-table-wrapper {
+  display: inline-block;
+}
+.electron-tools-formContainer-284da .ant-tag {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.electron-tools-formContainer-284da .electron-tools-tagInput-2588d {
+  width: 78px;
+  height: 22px;
+  margin-right: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  vertical-align: top;
+}
+
+.electron-tools-viewBox-00305 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.electron-tools-viewEcharts-6e5d5 {
+  width: 100%;
+  height: 80%;
+}
+
+.electron-tools-ulBox-916cd {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: #001529;
+  width: 100px;
+  height: 100%;
+}
+.electron-tools-ulBox-916cd .electron-tools-liNav-168c5 {
+  text-align: center;
+  transition: all 0.5s;
+  border-bottom: 1px solid #333;
+}
+.electron-tools-ulBox-916cd .electron-tools-liNav-168c5 a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+}
+.electron-tools-ulBox-916cd .electron-tools-liNav-168c5:hover {
+  background-color: #1890ff;
+  cursor: pointer;
+}
+.electron-tools-canvasContainer-08de0 {
+  padding: 20px;
+  height: 90vh;
+  overflow-y: auto;
+  width: 100%;
+  background-color: #f3f3f3;
+}
+.electron-tools-canvasUl-7efef {
+  padding-left: 0;
+  list-style: none;
+}
+.electron-tools-echartsUl-21aa6 {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.electron-tools-echartsTitle-6d8ec {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: center;
+}
+.electron-tools-echartsLi-e0520 {
+  margin: 10px 20px;
+  list-style: none;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  transition: all 0.4s;
+  box-shadow: 2px 2px 5px #eee;
+  cursor: pointer;
+}
+.electron-tools-echartsLi-e0520:hover {
+  box-shadow: 2px 2px 10px #999;
+}
+.electron-tools-echartsImgDiv-c2151 {
+  width: 246px;
+  height: 180px;
+  margin: 0 8px 8px 8px;
+}
+.electron-tools-echartsImg-df26d {
+  width: 100%;
+  height: 100%;
+}
+
+.electron-tools-echartsModal-ed402 .ant-modal-body {
+  padding: 0;
+}
+.electron-tools-modalBox-c0253 {
+  display: flex;
+  min-height: 90vh;
+  max-height: 90vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.electron-tools-tabContainer-3181b {
+  width: 50%;
+}
+
+.electron-tools-submitBox-f97e8 {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.electron-tools-appLayout-5e085 {
+  display: flex;
+  background: #f0f2f5;
+}
+.electron-tools-widthFull-bbdca {
+  width: 100%;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+    width: 8px;
+    height: 6px;
+    background-color: #f6f6f6;
+}
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+    background-color: #efefef;
+}
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/*# sourceMappingURL=index.eb1626cb.css.map*/
