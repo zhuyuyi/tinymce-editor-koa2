@@ -1,6 +1,6 @@
 const Router = require('koa-router');
 
-const apiRouter = new Router({prefix: '/api'});
+const apiRouter = new Router({prefix: '/'});
 
 const ceshi = require('./ceshi')(apiRouter);
 const article = require('./article')(apiRouter);
