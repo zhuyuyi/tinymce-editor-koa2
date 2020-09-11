@@ -1,18 +1,23 @@
+const axios = require('axios');
+
 const Article = require('./../proxy/article');
+const ArticlesModels = require('./../models/md_article');
+
 
 function setArticle(router) {
 
     router.get('/article', async (ctx, next) => {
-        const article = await Article.get();
-        console.log(article,'11111')
-        if(article._doc){
-            ctx.body = {
-                ...article._doc
-            }
-        } else {
-            ctx.body = {
-                article:[]
-            }
+        let articles = await ArticlesModels.find({});
+        for (let i = 0; i < articles.length; i++) {
+            let article = articles[i]._doc;
+            axios.post(`http://www.zhuyuyi.cn:9200/article-index/_create/${article.markdownId}`, {
+                title: article.title,
+                mdTexts: article.mdTexts,
+                markdownId: article.markdownId,
+            })
+        }
+        ctx.body = {
+            returns: JSON.stringify(articles)
         }
     })
 
@@ -24,11 +29,11 @@ function setArticle(router) {
                 title,
                 texts
             })
-        } catch(e){
+        } catch (e) {
             retrunObj = e;
         }
         ctx.body = {
-            returns:retrunObj
+            returns: retrunObj
         }
     })
 
