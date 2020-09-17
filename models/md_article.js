@@ -58,4 +58,4 @@ const schema = new Schema({
     pushTime: Date // 推送时间
 });
 
-module.exports = mongoose.model('MarkDownArticle', schema);
+module.exports = mongoose.model('articles', schema);

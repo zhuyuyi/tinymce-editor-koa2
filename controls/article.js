@@ -8,16 +8,9 @@ function setArticle(router) {
 
     router.get('/article', async (ctx, next) => {
         let articles = await ArticlesModels.find({});
-        for (let i = 0; i < articles.length; i++) {
-            let article = articles[i]._doc;
-            axios.post(`http://www.zhuyuyi.cn:9200/article-index/_create/${article.markdownId}`, {
-                title: article.title,
-                mdTexts: article.mdTexts,
-                markdownId: article.markdownId,
-            })
-        }
+        console.log(articles[1],'articles[0]._doc')
         ctx.body = {
-            returns: JSON.stringify(articles)
+            returns: articles[1]
         }
     })
 
